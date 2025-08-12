@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Repato - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seminars">Seminars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section id="home" class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <div class="header-content">
+                        <h1>Angel Repato</h1>
+                        <p class="role">Aspiring Computer Engineering</p>
+                        <p class="lead mb-4">Passionate about creating innovative solutions through technology and continuous learning.</p>
+                        <a href="#about" class="btn-gradient me-3">Learn More</a>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="profile-img-container">
+                        <img src="picture.png" 
+                             alt="Angel Repato - Profile Picture" 
+                             class="profile-img"
+                             onerror="this.src='https://via.placeholder.com/200x200/667eea/ffffff?text=PHOTO+ERROR'; this.alt='Profile image failed to load';">
+                        <div class="profile-img-overlay">
+                            <i class="fas fa-camera" style="font-size: 2rem; color: rgba(255,255,255,0.8);"></i>
+                            <p style="margin-top: 10px; color: rgba(255,255,255,0.8); font-size: 0.9rem;">Replace with your photo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know more about my background and journey</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <h3 class="mb-4">My Story</h3>
+                    <p class="lead">As a computer engineering student, I am passionate about technology and innovation. My tech journey started in high school when I created my first website, and ever since, I’ve been eager to learn more and improve my skills in this exciting field.</p>
+                    <p>I believe technology can solve important problems and positively impact lives. Through my studies and personal projects, I am preparing myself to make meaningful contributions to the technology sector.</p>
+                   <button type="button" class="btn btn-primary btn-read-full-story" data-bs-toggle="modal" data-bs-target="#aboutModal"> Read Full Story </button>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Educational Background</h3>
+                    <div class="education-card">
+                        <div class="icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h5>Bachelor of Science in Computer Engineering</h5>
+                        <p class="text-muted mb-2">University of the East - Manila Campus| 2023 - Present</p>
+                        <p>Currently pursuing my degree with focus on software development, algorithms, and system design.</p>
+                    </div>
+                    <div class="education-card">
+                        <div class="icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h5>Senior High school</h5>
+                        <p class="text-muted mb-2">Nuestra Senora De Guia Academy | 2021 - 2023</p>
+                        <p>Graduated with honors, specializing in FBS subjects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seminars and Trainings Section -->
+    <section id="seminars" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Seminars & Trainings</h2>
+                <p>Continuous learning through workshops and professional development</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 mb-4">
+                    <div class="card seminar-card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <i class="fas fa-brain me-2"></i>Psychology of Gaming Addiction
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                           
+                            <p class="card-text">Explore psychological patterns in gaming behavior.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card seminar-card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <i class="fas fa-shield-alt me-2"></i>Anti-Cyberbullying
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                        
+                            <p class="card-text">Learn how to prevent and respond to online harassment.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card seminar-card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <i class="fas fa-microchip me-2"></i>Arduino Workshops
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                             <p class="card-text">Hands-on training with Arduino boards and sensors.</p>
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills & Trainings</h2>
+                <p>Technical skills and proficiency levels</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h5>HTML</h5>
+                            <p class="text-muted mb-3">Semantic markup and modern HTML5</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                            <small class="text-muted">90% Proficiency</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h5>CSS</h5>
+                            <p class="text-muted mb-3">Responsive design and animations</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                            <small class="text-muted">85% Proficiency</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <h5>Bootstrap</h5>
+                            <p class="text-muted mb-3">Responsive framework and components</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                            <small class="text-muted">80% Proficiency</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>Showcase of my recent work</p>
+            </div>
+     
+ <!-- Project Cards -->
+<div class="row justify-content-center">
+
+    <!-- Project 1 -->
+    <div class="col-lg-6 mb-4">
+        <div class="card project-card">
+            <div class="project-img" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); position: relative; overflow: hidden;">
+                <img src="cover1.png" 
+                     alt="In-Between Game Screenshot" 
+                     style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px; margin: 20px;"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; align-items: center; justify-content: center; color: white; font-size: 4rem;">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">In-Between Game</h4>
+                <p class="card-text">A fun and challenging card game where players guess if the next card will fall between two cards already on the table. It tests your luck and strategy in a quick-paced format.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Mobile Game App</span>
+                    <span class="project-tag">Responsive</span>
+                    <span class="project-tag">Modern Design</span>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary details-btn" 
+                            data-bs-toggle="modal" 
+                            data-bs-target="#imageModal" 
+                            data-image="game3.png">
+                        Details
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col-lg-6 mb-4">
+        <div class="card project-card">
+            <div class="project-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); position: relative; overflow: hidden;">
+                <img src="cover2.png" 
+                     alt="Tic-Tac-Toe Screenshot" 
+                     style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px; margin: 20px;"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; align-items: center; justify-content: center; color: white; font-size: 4rem;">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Tic-Tac-Toe</h4>
+                <p class="card-text">A classic two-player game where you take turns placing X’s and O’s on a grid, aiming to get three in a row before your opponent. It’s a simple yet engaging game that sharpens your logical thinking.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Mobile Game</span>
+                    <span class="project-tag">Interactive</span>
+                    <span class="project-tag">Creative Design</span>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary details-btn" 
+                            data-bs-toggle="modal" 
+                            data-bs-target="#imageModal" 
+                            data-image="games2.png">
+                        Details
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Game Preview</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="popupImage" src="" alt="Game Screenshot" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS + Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.querySelectorAll('.details-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    const imgSrc = this.getAttribute('data-image');
+    document.getElementById('popupImage').src = imgSrc;
+  });
+});
+</script>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Let's connect and discuss opportunities</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <form class="contact-form" onsubmit="handleContactSubmit(event)">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-gradient">
+                            <i class="fas fa-paper-plane me-2"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <p>repato.angel@ue.edu.ph</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h5>Phone</h5>
+                                <p>+63 9936232089</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>Location</h5>
+                                <p>Markina City, Philippines</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+<footer class="footer py-3 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <p class="mb-0">&copy; 2025 Angel Repato. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <!-- About Modal -->
+    <div class="modal fade" id="aboutModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-user me-2"></i>My Full Story
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <h4>The Journey Begins</h4>
+                    <p>I became interested in technology when I was around 1 years old after getting my first computer. I enjoyed exploring how it works and learning more about it.</p>
+                    
+                    <h4>High School Years</h4>
+                    <p>During high school, I had a subject about coding, and that’s where I became interested in HTML and learned a little bit. In that class, we were asked to create a simple website.</p>
+                    <h4>University Life</h4>
+                    <p>Now that I’m studying Computer Engineering, I’ve maintained good grades and sometimes help my classmates with coding whenever they need assistance. I’m focused on learning and improving my skills through personal study and practice.</p>
+                    
+                    <h4>Looking Forward</h4>
+                    <p>In the future, I want to work at a tech company where I can help build cool projects and keep learning new things. I’m especially excited about networking and new technologies like AI and machine learning.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar background change on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+                navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.15)';
+            } else {
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+                navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            }
+        });
+
+        // Contact form submission
+        function handleContactSubmit(event) {
+            event.preventDefault();
+            
+            // Create success modal
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.6);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 9999;
+                animation: fadeIn 0.3s ease;
+            `;
+            
+            const modalContent = document.createElement('div');
+            modalContent.style.cssText = `
+                background: white;
+                padding: 50px;
+                border-radius: 20px;
+                text-align: center;
+                max-width: 450px;
+                margin: 20px;
+                box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+                animation: slideIn 0.3s ease;
+            `;
+            
+            modalContent.innerHTML = `
+                <div style="color: #28a745; font-size: 4rem; margin-bottom: 25px;">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3 style="color: #2c3e50; margin-bottom: 20px; font-weight: 600;">Message Sent Successfully!</h3>
+                <p style="color: #6c757d; margin-bottom: 30px; font-size: 1.1rem;">Thank you for reaching out! I'll get back to you within 24 hours.</p>
+                <button onclick="this.closest('.success-modal').remove()" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 15px 35px; border-radius: 50px; cursor: pointer; font-weight: 600; font-size: 1rem; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">Close</button>
+            `;
+            
+            modal.className = 'success-modal';
+            modal.appendChild(modalContent);
+            document.body.appendChild(modal);
+            
+            // Add CSS animations
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes fadeIn {
+                    from { opacity: 0; }
+                    to { opacity: 1; }
+                }
+                @keyframes slideIn {
+                    from { transform: translateY(-50px); opacity: 0; }
+                    to { transform: translateY(0); opacity: 1; }
+                }
+            `;
+            document.head.appendChild(style);
+            
+            // Reset form
+            event.target.reset();
+            
+            // Remove modal when clicking outside
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.remove();
+                }
+            });
+        }
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.skill-card, .project-card, .education-card, .seminar-card').forEach(item => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(50px)';
+            item.style.transition = 'all 0.8s ease';
+            observer.observe(item);
+        });
+
+        // Auto-advance carousel
+        const carousel = new bootstrap.Carousel(document.getElementById('projectCarousel'), {
+            interval: 5000,
+            wrap: true
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96cdd976a05f0387',t:'MTc1NDgxMTY3Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+<link rel="stylesheet" href="style.css" />
